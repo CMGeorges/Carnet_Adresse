@@ -1,0 +1,3 @@
+/home/bbu/Public/projet_session/projet_session/Carnet_Adresse/obj/Release/Carnet_Adresse.csprojAssemblyReference.cache
+/home/bbu/Public/projet_session/projet_session/Carnet_Adresse/obj/Release/Carnet_Adresse.Properties.Resources.resources
+/home/bbu/Public/projet_session/projet_session/Carnet_Adresse/obj/Release/Carnet_Adresse.csproj.GenerateResource.cache

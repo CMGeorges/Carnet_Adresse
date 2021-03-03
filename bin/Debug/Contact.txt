@@ -1,0 +1,6 @@
+Sylvie,s,Moi,5148888888,258 16e,101-C,st-Mabal,Quebec,Canada,w7w7w7,s.moi@gmail.ca
+Sophie,,St-Hubert,4500001111,6001 1e ave,,Laval,Quebec,Canada,I1I1I1,sophie.shubert@hotmail.com
+Alain,Jean,Flouflou,4385145144,500 boul sher,BB,Montreal,Québec,Canada,g5g5g5,alain@gmail.com
+Santa,,Claus,5558889999,north pole,,Pole,,Terre,,hohoho@northpole.com
+Sylvie,Marmo,George,6195555555,258 16e st,,Mabal,Ontario,Canada,Z7W7W7,s.m.g@gmail.ca
+Sean,sil,Ham,4504504501,52 11e st,section b,Laval,Quebec,Canada,q7q7q7,shg@yahoo.ca

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carnet_Adresse", "Carnet_Adresse.csproj", "{D2FC6C16-3B45-43B4-8C3E-DB07E7D0117C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2FC6C16-3B45-43B4-8C3E-DB07E7D0117C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FC6C16-3B45-43B4-8C3E-DB07E7D0117C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FC6C16-3B45-43B4-8C3E-DB07E7D0117C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FC6C16-3B45-43B4-8C3E-DB07E7D0117C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FC6C16-3B45-43B4-8C3E-DB07E7D0117C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D2FC6C16-3B45-43B4-8C3E-DB07E7D0117C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2902161-2935-4A05-82A8-03211CFA8CE5}
+	EndGlobalSection
+EndGlobal
