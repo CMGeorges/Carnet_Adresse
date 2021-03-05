@@ -39,25 +39,10 @@ namespace Carnet_Adresse
 
         }
 
-        private void listContact_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
             listContact.ClearSelected();
-            //FirstNBox.Clear();
-            //LastNBox.Clear();
-            //MiddleNBox.Clear();
-            //PhoneBox.Clear();
-            //EmailBox.Clear();
-            //AddressBox1.Clear();
-            //AddressBox2.Clear();
-            //CityBox.Clear();
-            //StateBox.Clear();
-            //ZipBox.Clear();
-            //CountryBox.Clear();
         }
 
       
@@ -73,24 +58,14 @@ namespace Carnet_Adresse
 
         private void listContact_DoubleClick(object sender, EventArgs e)
         {
-            FirstNBox.Clear();
-            LastNBox.Clear();
-            MiddleNBox.Clear();
-            PhoneBox.Clear();
-            EmailBox.Clear();
-            AddressBox1.Clear();
-            AddressBox2.Clear();
-            CityBox.Clear();
-            StateBox.Clear();
-            ZipBox.Clear();
-            CountryBox.Clear();
+            Cleared();
             if (listContact.SelectedItem.ToString() != null)
             {
                 for (int i = 0; i < Liste.Carnet.Count; i++)
                 {
                     if (listContact.SelectedItem.ToString() == Liste.Carnet[i].ToString())
                     {
-                        
+
                         FirstNBox.Text = Liste.Carnet[i].FirstName;
                         LastNBox.Text = Liste.Carnet[i].LastName;
                         MiddleNBox.Text = Liste.Carnet[i].MiddleName;
@@ -106,6 +81,21 @@ namespace Carnet_Adresse
 
                 }
             }
+        }
+
+        private void Cleared()
+        {
+            FirstNBox.Clear();
+            LastNBox.Clear();
+            MiddleNBox.Clear();
+            PhoneBox.Clear();
+            EmailBox.Clear();
+            AddressBox1.Clear();
+            AddressBox2.Clear();
+            CityBox.Clear();
+            StateBox.Clear();
+            ZipBox.Clear();
+            CountryBox.Clear();
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
@@ -146,17 +136,7 @@ namespace Carnet_Adresse
                     }
                 }
             }
-            FirstNBox.Clear();
-            LastNBox.Clear();
-            MiddleNBox.Clear();
-            PhoneBox.Clear();
-            EmailBox.Clear();
-            AddressBox1.Clear();
-            AddressBox2.Clear();
-            CityBox.Clear();
-            StateBox.Clear();
-            ZipBox.Clear();
-            CountryBox.Clear();
+            Cleared();
             Utilitaire.UpdateList("Contact.txt", Liste, listContact);
 
         }

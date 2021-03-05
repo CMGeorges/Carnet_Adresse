@@ -76,7 +76,6 @@
             this.listContact.Size = new System.Drawing.Size(156, 251);
             this.listContact.Sorted = true;
             this.listContact.TabIndex = 0;
-            this.listContact.SelectedIndexChanged += new System.EventHandler(this.listContact_SelectedIndexChanged);
             this.listContact.DoubleClick += new System.EventHandler(this.listContact_DoubleClick);
             // 
             // pnlContact

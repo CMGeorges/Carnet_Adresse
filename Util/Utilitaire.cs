@@ -28,12 +28,14 @@ namespace Carnet_Adresse
 
 
         }
+
         //suppresion de contact
         public static void Retirer(ListeDeContact carnet, Contact c)
         {
             carnet.Carnet.Remove(c);
             MessageBox.Show("Contact Supprimé!! ");
         }
+
         //vérifier si contact existe
         public static bool VérifierContact(ListeDeContact carnet, Contact c)
         {
@@ -84,6 +86,7 @@ namespace Carnet_Adresse
 
         }
 
+
         internal static string FormerLigne(Contact item)
         {
             //Serialisation
@@ -91,6 +94,9 @@ namespace Carnet_Adresse
                 + "," + item.Address1 + "," + item.Address2 + "," + item.City + "," 
                 + item.State + "," + item.Country + "," + item.Zip + "," + item.Email ;
         }
+
+
+
         //Loading du carnet.txt au démarrage
         internal static void OnloadList(string fichier, ListeDeContact list, ListBox listb)
         {
@@ -102,6 +108,8 @@ namespace Carnet_Adresse
             }
             listb.EndUpdate();
         }
+
+
         //Mise a jour du carnet
         internal static void UpdateList(string fichier, ListeDeContact list,ListBox listb)
         {

@@ -8,6 +8,7 @@ namespace Carnet_Adresse
 {
     class Contact
     {
+
         private string _lastName;
         private string _firstName;
         private string _middleName;
@@ -20,7 +21,7 @@ namespace Carnet_Adresse
         private string _zip;
         private string _country;
 
-
+        #region Properties
         public string Country
         {
             get { return _country; }
@@ -60,7 +61,7 @@ namespace Carnet_Adresse
         }
 
 
-        public string  Email
+        public string Email
         {
             get { return _email; }
             set { _email = value; }
@@ -93,6 +94,10 @@ namespace Carnet_Adresse
             get { return _lastName; }
             set { _lastName = value; }
         }
+
+        #endregion
+
+        #region ctor
         public Contact(string lastName, string firstName, string middleName, string phone, string email, string address1, string address2, string city, string state, string zip, string country)
         {
             _lastName = lastName;
@@ -107,6 +112,10 @@ namespace Carnet_Adresse
             _zip = zip;
             _country = country;
         }
+
+
+        #endregion
+
 
         public override string ToString()
         {
